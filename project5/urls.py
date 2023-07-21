@@ -22,10 +22,10 @@ from my_app2.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('String1', String1, name="String1"),
-    path('String2', String2, name="String2"),
-    path('String3', String3, name="String3"),
-    path('String4', String4, name="String4"),
+    path('String1/', String1, name="String1"),
+    path('String2/', String2, name="String2"),
+    path('String3/', String3, name="String3"),
+    path('String4/', String4, name="String4"),
     
     
 ]
